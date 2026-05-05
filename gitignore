@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Model weights (large files — don't commit)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Dataset (downloaded at runtime via Roboflow)
+DOTA-1/
+datasets/
+data/
+
+# Training run outputs
+runs/
+wandb/
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets / API keys
+.env
+secrets.py
